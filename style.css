@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+}
+
+.logo {
+    height: 80px;
+    margin-left: 100px;
+}
+
+li {
+    margin-right: 0px;
+}
+
+.navtaskbar {
+    margin-left: 500px;
+}
+
+.content {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.ban-image {
+    background-image: url(./assets/foodmunch-banner-bg.png);
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+
+}
+
+.banner {
+    position: absolute;
+    justify-content: center;
+    top: 50%;
+    left: 35%;
+    transform: transform(-50%, 50%);
+    scroll-behavior: smooth;
+    align-items: center;
+
+}
+
+.tittle {
+    color: #e2d7fa;
+    font-weight: 300px;
+
+
+
+}
+
+.mini-tittle {
+    color: aliceblue;
+    font-weight: 240px;
+
+
+}
+
+.menu {
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+
+
+
+}
+
+.order {
+    color: darkgoldenrod;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+
+    border-color: chocolate;
+    background-color: #0000006f;
+
+}
+
+.explore {
+    font-weight: 150px;
+    color: rgba(0, 0, 0, 0.993);
+    font-size: larger;
+    font-family: 'roboto';
+    margin: 10px;
+
+}
+
+@media only screen and (min-width: 600px) {
+    .buttons {
+        max-width: 400px
+    }
+}
+
+.all {
+    color: chocolate;
+}
+
+.choose {
+    font-weight: 120px;
+    color: hwb(0 0% 100% / 0.845);
+
+
+}
+
+.card {
+    border-radius: 25px;
+
+
+}
+
+.normal-content {
+    font-weight: 120px;
+    color: hwb(0 0% 100% / 0.845);
+
+}
+
+.normal-button {
+    border-radius: 6px;
+    background-color: darkgoldenrod;
+    width: 120px;
+    height: 40px;
+}
+
+.delvery {
+    font-weight: 120px;
+    color: hwb(0 0% 100% / 0.845);
+}
+
+.now {
+    border-radius: 6px;
+    background-color: darkgoldenrod;
+    width: 120px;
+    height: 40px;
+}
+
+@media only screen and (min-width: 600px) {
+    .small-images {
+        max-width: 300px;
+
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .delivery-payment {
+        max-width: 350px;
+
+    }
+}
+
+@media only screen and (min-width: 200px) {
+    .three-simple-images {
+        max-width: 450px;
+    }
+}
+
+.redeem-gift {
+    border-radius: 6px;
+    background-color: darkgoldenrod;
+    width: 120px;
+    height: 40px;
+}
+
+.gift {
+    background-color: hwb(34 13% 16% / 0.329);
+}
+
+@media only screen and (min-width: 500px) {
+    .gift-image {
+        max-width: 350px;
+
+    }
+}
+
+.follow {
+    margin-top: 25px;
+
+}
+
+.icon.bi {
+    width: 30px;
+    height: 20ox
+}
+
+.icon {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 28px;
+    padding-bottom: 14px;
+    padding-right: 20px;
+    padding-left: 20px;
+    align-items: center;
+    align-self: center;
+}
+
+.thank-you {
+    padding-top: 120px;
+}
+
+.card-img-top {
+    width: 90px;
+    justify-self: center;
+    align-items: center;
+    align-self: center;
+
+    justify-content: center;
+}
+
+.card-title {
+    align-self: center;
+}
+
+.bi {
+    align-items: center;
+    justify-self: center;
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+
+.last-img {
+    width: 90px;
+    border-bottom: 10px;
+    padding-bottom: 20px;
+
+}
+
+.bottom-content {
+    background-color: #6610f2;
+    width: 100%;
+    background-size: cover;
+    background-size: auto;
+    border-left: 0px;
+    border: 3px solid rgba(62, 62, 65, 0.749);
+    height: 300px;
+    position: absolute;
+
+}
+
+.menu-item-card {
+    border-radius: 16px;
+
+}
+
+.p3 {
+    padding: 1rem ! important;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem #3e3e4177 !important;
+}
+
+div {
+    display: block;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 600px) {
+    .menu-item-card {
+        max-width: 450px;
+        margin: 20px;
+    }
+}
+
+.thanking-customer-section {
+    background-image: radial-gradient(#fff8db, #fae38c);
+}
+
+.footer-section {
+    background-color: #0d2436;
+    color: #e2d7fa;
+}
